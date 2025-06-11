@@ -52,3 +52,10 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Ignore SQLite DB files
+*.db
+
+# Ignore EFCore design-time files
+*.db-shm
+*.db-wal
